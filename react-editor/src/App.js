@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import Button from "./components/Button";
-import Editor from "./components/Editor";
+import Button from "./components/Button.jsx";
+import Editor from "./components/Editor.jsx";
 
 function App() {
   const [openedEditor, setOpenedEditor] = useState("html");
