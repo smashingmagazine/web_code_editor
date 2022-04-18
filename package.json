@@ -1,25 +1,17 @@
 {
-  "name": "react-editor",
+  "name": "editor",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@surma/rollup-plugin-off-main-thread": "^2.1.0",
-    "@svgr/plugin-svgo": "^6.2.0",
-    "@svgr/webpack": "^6.2.1",
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.1.1",
-    "@testing-library/user-event": "^13.5.0",
-    "async": "^3.2.3",
-    "css-select": "^4.3.0",
-    "ejs": "^3.0.2",
-    "gh-pages": "^3.2.3",
-    "jake": "^0.3.1",
-    "nth-check": "^2.0.1",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.5.0",
+    "codemirror": "^5.59.1",
+    "react": "^17.0.1",
+    "react-codemirror2": "^7.2.1",
+    "react-dom": "^17.0.1",
     "react-scripts": "^5.0.1",
-    "svgo": "^2.8.0",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^0.2.4"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -46,6 +38,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ],
-    "homepage": "https://corystephenson.github.io/index.html"
+    "homepage": "https://corystephenson.github.io/web_code_editor"
   }
 }
