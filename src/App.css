@@ -1,0 +1,10 @@
+body {
+  /* background-color: #0F151D; */
+  padding: 3rem;
+}
+.tab-button-container{
+  display: flex;
+}
+.editor-container{
+  padding-top: .4%;
+}
