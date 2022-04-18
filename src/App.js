@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import Button from './components/Button';
-import Editor from './components/Editor';
+import Button from './src/components/Button.jsx';
+import Editor from '.src/components/Editor.jsx';
 
 function App() {
 
